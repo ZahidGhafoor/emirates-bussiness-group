@@ -1,0 +1,29 @@
+
+.company__container{
+    margin: 5rem auto;
+    max-width: 1000px;
+    
+    .heading{
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5em;
+        letter-spacing: -.01em;
+        line-height: 1em;
+        text-align: center;
+        color:  #7b838e;;
+    }
+
+    .imgs{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5rem 10rem;
+        margin-top: 5rem;
+        .all__business{
+            width: 190px;
+        }
+    }
+}
+
+  
