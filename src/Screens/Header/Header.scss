@@ -1,0 +1,11 @@
+.header__container{
+    height: 100vh;
+    .main__img{
+        height: 100%;
+        .img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

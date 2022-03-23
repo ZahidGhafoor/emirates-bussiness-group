@@ -1,0 +1,38 @@
+.navbar__container{
+// background-color: skyblue;
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem 10rem;
+@media screen and (max-width:1200px){
+    padding: 1.5rem 2rem;
+
+}
+
+.logo{
+    img{
+       max-width: 200px;
+    }
+}
+
+
+.tabs{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .links{
+        font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .04em;
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+    }
+}
