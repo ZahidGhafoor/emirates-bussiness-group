@@ -1,0 +1,117 @@
+.lilDetails__container{
+    background-color: #7b838e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 2rem;
+
+
+    .heading{
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5em;
+        letter-spacing: -.01em;
+        line-height: 1em;
+        text-transform: none;
+        color: #fff;
+        @media screen and (max-width:750px){
+            font-size: 2.3em;
+        }
+    }
+
+    .details{
+        font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.808);
+    max-width: 1150px;
+    margin: 4rem 0;
+    border-left: 1px solid white;
+    padding-left: 2rem;
+     @media screen and (max-width:550px){
+            font-size: 18px;
+    line-height: 1.3em;
+    margin: 2rem 0;
+
+
+        }
+    }
+
+    .employ{
+        font-size: 100px;
+    line-height: 2em;
+    color: #fff;
+    text-align: center;
+    position: relative;
+     @media screen and (max-width:550px){
+            font-size: 80px;
+    line-height: 1.5em;
+
+        }
+    span{
+        font-size: 40px;
+        line-height: 1.2em;
+        text-align: center;
+        margin-top: -5rem;
+        position: absolute;
+        bottom: 2px;
+        left: 60px;
+         @media screen and (max-width:550px){
+        bottom: -20px;
+        left: 30px;
+
+         
+
+        }
+    }
+    }
+    .detils__he{
+        margin: 4rem 0;
+        width:100%;
+        max-width: 1150px;
+        height:1px;
+        background-color:  #fff;
+    }
+
+    .quote__heading{
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        letter-spacing: -.01em;
+        line-height: 1em;
+    color: #fff;
+    @media screen and (max-width:550px){
+            font-size: 25px;
+    
+
+
+        }
+
+    }
+    .quote{
+        margin: 2rem 0;
+        max-width: 1150px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+        letter-spacing: -.01em;
+        line-height: 1em;
+        text-transform: none;
+        font-style: italic;
+    color: #fff;
+    text-align: center;
+    @media screen and (max-width:550px){
+            font-size: 25px;
+    
+
+
+        }
+
+    }
+    
+    
+    }

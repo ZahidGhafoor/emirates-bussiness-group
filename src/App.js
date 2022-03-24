@@ -1,21 +1,24 @@
-import React from 'react'
-import "./App.css"
-import Company from './Screens/Companies/Company'
-import LittleDetails from './Screens/companyDetails/LittleDetails'
-import Footer from './Screens/Footer/Footer'
-import Header from './Screens/Header/Header'
-import NavBar from './Screens/NavBar/NavBar'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import NavBar from "./Components/NavBar/NavBar";
+import About from "./Screens/About-Us/About";
+import AboutHome from "./Screens/About-Us/Home/AboutHome";
+import Footer from "./Screens/Home/Footer/Footer";
+import Home from "./Screens/Home/Home";
 
 const App = () => {
   return (
-  
-  <>
-  <Header/>
-  <LittleDetails/>
-  <Company/>
-  <Footer/>
-  </>
-  )
-}
+    <>
+      <NavBar />
 
-export default App
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </>
+  );
+};
+
+export default App;

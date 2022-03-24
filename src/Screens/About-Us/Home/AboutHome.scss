@@ -1,0 +1,13 @@
+.about__home__container{
+    height: 100vh;
+    .aboutHome__video{
+       
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+  
+    }
+
+}
