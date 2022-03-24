@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 7rem 0;
+    padding: 7rem 2rem;
 
 
     .heading{
@@ -15,6 +15,9 @@
         line-height: 1em;
         text-transform: none;
         color: #fff;
+        @media screen and (max-width:750px){
+            font-size: 2.3em;
+        }
     }
 
     .details{
@@ -29,6 +32,13 @@
     margin: 4rem 0;
     border-left: 1px solid white;
     padding-left: 2rem;
+     @media screen and (max-width:550px){
+            font-size: 18px;
+    line-height: 1.3em;
+    margin: 2rem 0;
+
+
+        }
     }
 
     .employ{
@@ -37,6 +47,11 @@
     color: #fff;
     text-align: center;
     position: relative;
+     @media screen and (max-width:550px){
+            font-size: 80px;
+    line-height: 1.5em;
+
+        }
     span{
         font-size: 40px;
         line-height: 1.2em;
@@ -45,6 +60,13 @@
         position: absolute;
         bottom: 2px;
         left: 60px;
+         @media screen and (max-width:550px){
+        bottom: -20px;
+        left: 30px;
+
+         
+
+        }
     }
     }
     .detils__he{
@@ -62,6 +84,12 @@
         letter-spacing: -.01em;
         line-height: 1em;
     color: #fff;
+    @media screen and (max-width:550px){
+            font-size: 25px;
+    
+
+
+        }
 
     }
     .quote{
@@ -76,6 +104,12 @@
         font-style: italic;
     color: #fff;
     text-align: center;
+    @media screen and (max-width:550px){
+            font-size: 25px;
+    
+
+
+        }
 
     }
     

@@ -45,7 +45,7 @@ const Footer = () => {
                         <div className="first">
                             <LocalPhoneIcon className='first__icon' />
                             <div className="text">
-                            +971528774900
+                            +971-5-28774900
                             </div>
                         </div>
                         <div className="first">
