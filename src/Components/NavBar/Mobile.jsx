@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Button from "@mui/material/Button";
-import logo from "../../Assets/main.png";
+import logo from "../../Assets/Jazman.png";
 
 import MenuIcon from "@mui/icons-material/Menu";
           

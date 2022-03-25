@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import "./NavBar.scss"
 
 
-import logo from "../../Assets/main.png"
+import logo from "../../Assets/Jazman.png"
 import Mobile from './Mobile'
 
 const NavBar = () => {
