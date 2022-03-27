@@ -6,6 +6,7 @@ import About from "./Screens/About-Us/About";
 import Footer from "./Screens/Home/Footer/Footer";
 import Home from "./Screens/Home/Home";
 import Contact from "./Screens/Contact/Contact";
+import Gallery from "./Screens/Gallery/Gallery";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </>

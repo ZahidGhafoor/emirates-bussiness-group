@@ -24,13 +24,13 @@ const NavBar = () => {
           <NavLink className="links" to="/">
             Our Businesses
           </NavLink>
-          <NavLink className="links" to="/">
+          <NavLink className="links" to="/gallery">
             Media
           </NavLink>
           <NavLink className="links" to="/">
             Careers
           </NavLink>
-          <NavLink className="links" to="/">
+          <NavLink className="links" to="/contact">
             Contact
           </NavLink>
         </div>
