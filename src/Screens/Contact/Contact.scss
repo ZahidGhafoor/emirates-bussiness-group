@@ -1,0 +1,153 @@
+.contact__header{
+max-width: 1150px;
+padding: 0 2rem;
+margin: 3rem auto;
+margin-top: 10rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+.heading{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    letter-spacing: -.01em;
+    line-height: 1em;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 2rem;
+    @media screen and (max-width:700px){
+        font-size: 3em;
+
+    
+        }
+}
+
+.para{
+    color: #707070;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: -.01em;
+    line-height: 1.2em;
+    text-align: center;
+    @media screen and (max-width:700px){
+    font-size: 22px;
+
+    }
+}
+
+.info{
+    width: 100%;
+.info1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+    .info__icons{
+       font-size: 65px;
+    color: #707070;
+
+    }
+    .info__text{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: .15em;
+        line-height: 2em;
+    color: #707070;
+    line-height: 1em;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 12px;
+
+    }
+}
+
+.info__hr{
+    height: 2px;
+    width: 100%;
+    background-color: #707070;
+}
+}
+
+
+.map{
+    margin: 2rem 0;
+    width: 100%;
+}
+
+
+
+.form{
+    width: 100%;
+    .form__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .header__icons{
+            font-size: 65px;
+            color: #707070;
+        
+        }
+
+        .title{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 35px;
+            color: #707070;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+    .inputs{
+        width: 100%;
+        .input1{
+            .input__heading{
+                font-weight: 400;
+            
+                font-size: 18px;
+                text-transform: none;
+                color: #616161;
+            color: #707070;
+            }
+            .form__input{
+               
+                width: 100%;
+                padding: 12px;
+                margin: 6px 0 4px;
+                border: 1px solid #ccc;
+                background: #fafafa;
+                color: #000;
+                font-family: sans-serif;
+                font-size: 12px;
+                line-height: normal;
+                box-sizing: border-box;
+                border-radius: 2px;
+            }
+
+       
+        }
+    }
+
+    .form__btn{
+        height: 50px;
+        width: 200px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        margin-top: 15px;
+        background-color: #707070;
+        color: white;
+        font-size: 20px;
+    }
+
+
+
+}
+}
