@@ -46,13 +46,13 @@ const Mobile = (props) => {
         <NavLink className="links" to="/">
           Our Businesses &gt;
         </NavLink>
-        <NavLink className="links" to="/">
+        <NavLink className="links" to="/gallery">
           Media &gt;
         </NavLink>
-        <NavLink className="links" to="/">
+        <NavLink className="links" to="/careers">
           Careers &gt;
         </NavLink>
-        <NavLink className="links" to="/">
+        <NavLink className="links" to="/contact">
           Contact &gt;
         </NavLink>
       </div>

@@ -7,6 +7,7 @@ import Footer from "./Screens/Home/Footer/Footer";
 import Home from "./Screens/Home/Home";
 import Contact from "./Screens/Contact/Contact";
 import Gallery from "./Screens/Gallery/Gallery";
+import Career from "./Screens/Careers/Career";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/careers" element={<Career />} />
       </Routes>
       <Footer />
     </>
