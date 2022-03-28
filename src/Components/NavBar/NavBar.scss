@@ -1,5 +1,55 @@
 .navbar__container {
-  background-color: #434c56af;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+  z-index: 200;
+  @media screen and (max-width: 1200px) {
+    padding: 1rem 2rem;
+  }
+  @media screen and (max-width: 730px) {
+    display: none;
+  }
+
+  .logo {
+    img {
+      // max-width: 200px;
+      height: 70px;
+      width: 80px;
+      @media screen and (max-width: 900px) {
+      
+      }
+    }
+  }
+
+  .tabs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    @media screen and (max-width: 900px) {
+      gap: 1rem;
+    }
+
+    .links {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      letter-spacing: 0.04em;
+      text-transform: none;
+     color: rgba(0, 0, 0, 0.548);
+      text-decoration: none;
+      @media screen and (max-width: 900px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
+.scrool{
+    background-color: #434b56ce;
   position: fixed;
   top: 0;
   width: 100%;

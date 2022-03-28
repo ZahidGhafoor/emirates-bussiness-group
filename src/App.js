@@ -8,6 +8,7 @@ import Home from "./Screens/Home/Home";
 import Contact from "./Screens/Contact/Contact";
 import Gallery from "./Screens/Gallery/Gallery";
 import Career from "./Screens/Careers/Career";
+import Business from "./Screens/Business/Business";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/careers" element={<Career />} />
+        <Route path="/business" element={<Business />} />
       </Routes>
       <Footer />
     </>

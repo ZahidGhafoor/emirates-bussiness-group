@@ -9,6 +9,7 @@
 }
 
 .active{
-  /* color: skyblue !important; */
+  color: orange !important;
+  font-weight: 700 !important;
 }
 
